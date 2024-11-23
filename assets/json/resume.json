@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Sihang Wu",
+    "label": "Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "wusihang999@gamil.com",
+    "phone": "01628693598",
+    "url": "https://sihang999.github.io/",
+    "summary": "A master student studying MSCE in Tum",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -22,6 +22,11 @@
       }
     ]
   },
+
+
+"comments": {
+    "note": "下面的全是注释，等待修改",
+
   "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
@@ -35,7 +40,7 @@
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
+      "organization": "Huawei",
       "location": "Zurich, Switzerland",
       "position": "Lead Organizer",
       "url": "https://example.com",
@@ -197,4 +202,6 @@
       "url": "https://example.com"
     }
   ]
+
+}
 }
