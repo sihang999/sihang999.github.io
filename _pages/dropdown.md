@@ -1,7 +1,8 @@
 ---
 layout: page
 title: submenus
-nav: true
+# 这里的nav 和nav order来决定是否展示content和content的顺序！
+nav: false
 nav_order: 8
 dropdown: true
 children:

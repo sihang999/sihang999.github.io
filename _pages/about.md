@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-# subtitle: NOTHING IS IMPOSSIBLE
+subtitle: Communications and Electronics Engineering, Technische Universität München
 
 profile:
   align: right

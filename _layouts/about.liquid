@@ -11,7 +11,12 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
+    {% comment %}
     <p class="desc">{{ page.subtitle }}</p>
+    {% endcomment %}
+    <p class="desc" style="font-size: 0.8em;">
+     {{ page.subtitle }}
+    </p>
   </header>
 
   <article>
