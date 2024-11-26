@@ -95,7 +95,7 @@
     },
     {
       "name": "The implementation of IDEA on an FPGA board",
-      "summary": "In this project/lab, I used VHDL to implement and simulate the International Data Encryption Algorithm (IDEA) by software Xilinx ISE independently. Then I tested the implementations on an FPGA board(Spartan-3E Starter Kit). In the end, I did two optimizations, the first optimization uses the control unit and registers to achieve only one round for eight times encryption process. For the second time, The use of FPGA resources is further reduced by slitting a round into 4 partial steps and reusing Adder, multipliers and XOR Modules.",
+      "summary": "In this project/lab, I used VHDL to implement and simulate the International Data Encryption Algorithm by software Xilinx ISE independently. Then I tested the implementations on an FPGA board(Spartan-3E Starter Kit). In the end, I did two optimizations, the first optimization uses the control unit and registers to achieve only one round for eight times encryption process. For the second time, The use of FPGA resources is further reduced by slitting a round into 4 partial steps and reusing Adder, multipliers and XOR Modules.",
       "highlights": ["FPGA", "IDEA","Xilinx ISE"],
       "startDate": "2024-04-01",
       "endDate": "2024-08-01",
