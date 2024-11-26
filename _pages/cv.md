@@ -6,6 +6,8 @@ nav: true
 nav_order: 5
 # 直接放在assets的pdf文件夹里
 # Cv的渲染在includesd 的resume里面！！
+
+
   # "volunteer": [
   #   {
   #     "organization": "Huawei",
@@ -18,6 +20,8 @@ nav_order: 5
   #     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
   #   }
   # ],
+
+
   #  "certificates": [
   #   {
   #     "name": "Machine Learning",
@@ -41,6 +45,8 @@ nav_order: 5
   #     "icon": "fa-solid fa-envelope"
   #   }
   # ],
+
+
   # "publications": [
   #   {
   #     "name": "Zur Elektrody/namik bewegter Körper",
@@ -62,6 +68,17 @@ nav_order: 5
   #     "releaseDate": "1916-03-20",
   #     "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
   #     "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+  #   }
+  # ],
+
+
+  #   "awards": [
+  #   {
+  #     "title": "Nobel Prize in Physics",
+  #     "date": "1921-11-01",
+  #     "awarder": "Royal Swedish Academy of Sciences",
+  #     "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+  #     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
   #   }
   # ],
 cv_pdf: CV-Sihang Wu.pdf

@@ -34,17 +34,30 @@
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.position }}</a>
+            {{ content.position }}
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.name }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+          <a href="{{ content.url }}">{{ content.companyName }}</a>
+          </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
+
           <ul class="items">
-            {% for item in content.highlights %}
+            {% for item in content.summaries %}
               <li>
-                <span class="item">{{ item }}</span>
+                <span class="item" style="font-size: 0.9rem" >{{ item }}</span>
               </li>
             {% endfor %}
           </ul>
+
+          <ul style="display: flex; flex-wrap: wrap; gap: 10px; font-size: 0.8em; padding: 0; margin: 0;">
+              {% for item in content.highlights %}
+                <li 
+                  style="list-style: none; padding: 5px 10px; background-color: #f0f0f0; border-radius: 5px; display: inline-block; {% if forloop.first %} margin-left: 25px; {% endif %}">
+                  <span style="color: #555;">#</span> {{ item }}
+                </li>
+              {% endfor %}
+          </ul>
+
         </div>
       </div>
     </li>
