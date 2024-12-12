@@ -5,6 +5,7 @@ permalink: /projects/
 description: A growing collection of my cool projects.
 nav: true
 nav_order: 3
+# 这里显示projects的分类，work和fun
 display_categories: [work, fun]
 horizontal: false
 ---
