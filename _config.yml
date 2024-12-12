@@ -148,8 +148,9 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
-# Giscus comments (RECOMMENDED)
+# Giscus comments (RECOMMENDED，Giscus：基于 GitHub Discussions 的评论系统，需先在 GitHub 仓库中启用。)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
+
 giscus:
   repo: # <your-github-user-name>/<your-github-repo-name>
   repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
@@ -163,22 +164,22 @@ giscus:
   emit_metadata: 0
   lang: en
 
-# Disqus comments (DEPRECATED)
+# Disqus comments (DEPRECATED，过时的评论系统功能，不推荐)
 disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
+# # External sources！！！！！！！171-182我全部注释了，因为我不需要外网的blog.
+# # If you have blog posts published on medium.com or other external sources,
+# # you can display them in your blog by adding a link to the RSS feed.
 
-# here is something about the RSS feed!!!
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# # here is something about the RSS feed!!!使用外部的资源来添加blog，一个是medium.com,还有一个是google blog！！
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
