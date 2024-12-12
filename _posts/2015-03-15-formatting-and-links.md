@@ -3,6 +3,7 @@ layout: post
 title: a post with formatting and links
 date: 2015-03-15 16:40:16
 description: march & april, looking forward to summer
+#这个tag表示了分类，这里包含了两个标签formatting和links
 tags: formatting links
 categories: sample-posts
 ---
