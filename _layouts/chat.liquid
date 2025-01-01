@@ -13,6 +13,8 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/chat.css">
   </head>
@@ -31,12 +33,12 @@
         <p>SihangChat will help you learn more about his studies and researches!</p>
         <p>Current version is test version-1.0.1.</p>
       </div>
-
-      <div id="info-section-phone">
-        <h4>SihangChat</h4>
-        <p>You can ask any question about Sihang Wu with SihangChat Robot!</p>
-      </div>
       
+      <div id="info-section-phone">
+          <h4>SihangChat</h4>
+          <p>You can ask any question about Sihang Wu with SihangChat Robot!</p>
+      </div>
+
       <div id="chat-container" role="main">
         <div id="chat-window" role="log" aria-live="polite" aria-relevant="additions"></div>
         <div id="input-area" role="form">
@@ -72,7 +74,6 @@
     {% include scripts/wechatModal.liquid %}
     {% include scripts/imageLayouts.liquid %}
     {% include scripts/jekyll_tabs.liquid %}
-    {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
   </body>
 </html>

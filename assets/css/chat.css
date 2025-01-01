@@ -36,6 +36,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #layout {
@@ -121,17 +122,17 @@ body {
 
 /* 响应式设计：小屏幕优化 */
 @media (max-width: 768px) {
+
     #layout {
         flex-direction: column; /* 改为上下布局 */
         height: 100vh; /* 占满整个屏幕高度 */
         width: 100vw; /* 占满整个屏幕宽度 */
+        overflow: hidden;
     }
-
 
     #info-section {
         display: none; /* 隐藏左侧信息栏 */
     }
-
 
     #info-section-phone {
         display: block;
@@ -151,24 +152,35 @@ body {
         width: 100%;
         border: none; /* 移除边框 */
         box-shadow: none; /* 去掉阴影 */
-        padding-bottom: 130px; /* 留出底部空间 */
+        padding-bottom: 35px; /* 留出底部空间 */
         overflow-y: auto; /* 启用滚动 */
-        overflow-x: hidden;
+    }
+
+    #input-area {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        z-index: 1000;
+        display: flex;
+        padding: 10px;
+        border-top: 1px solid #ddd;
     }
 
     #user-input {
-        font-size: 14px;
+        font-size: 16px;
         padding: 8px;
     }
     
-
     #send-button {
-        font-size: 14px;
+        font-size: 16px;
         padding: 8px 12px;
     }
 }
 
 @media (max-width: 480px) {
+
     #layout {
         flex-direction: column;
         padding: 10px; /* 缩小间距 */
@@ -180,13 +192,14 @@ body {
 
     #info-section-phone {
         display: block;
-        order: 1; /* 设置优先显示在上方 */
-        flex: none;
+        position: fixed; /* 固定在页面顶部 */
+        top: 30px; /* 距离顶部为 0 */
+        left: 10px; /* 距离左侧为 0 */
+        z-index: 1000; /* 确保其在最顶层 */
         width: 100%; /* 占满宽度 */
         height: auto;
-        padding: 0;
+        background: #fff; /* 背景色确保可见 */
         border-bottom: 1px solid #ddd; /* 增加分隔线 */
-        padding-top: 30px; /* 留出底部空间 */
     }
 
     #chat-container {
@@ -196,18 +209,31 @@ body {
         width: 100%;
         border: none; /* 移除边框 */
         box-shadow: none; /* 去掉阴影 */
-        padding-bottom: 130px; /* 留出底部空间 */
+        padding-bottom: 30px; /* 留出底部空间 */
+        padding-top: 250px;
         overflow-y: auto; /* 启用滚动 */
-        
+        overflow-x: hidden;
+    }
+
+    #input-area {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        z-index: 1000;
+        display: flex;
+        padding: 10px;
+        border-top: 1px solid #ddd;
     }
 
     #user-input {
-        font-size: 12px;
+        font-size: 16px;
         padding: 6px;
     }
 
     #send-button {
-        font-size: 12px;
+        font-size: 16px;
         padding: 6px 10px;
     }
 }
