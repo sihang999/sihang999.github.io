@@ -38,10 +38,9 @@ body {
     align-items: center;
 }
 
-
 #layout {
     display: flex;
-    height: 80vh; /* 让它占 80% 的视口高度 */
+    height: 80vh;  /*让它占 80% 的视口高度 */
     width: 80vw; /* 让它占 80% 的视口宽度 */
     margin: 0;
     padding: 20px; /* 增加一些内部间距 */
@@ -148,18 +147,20 @@ body {
     #chat-container {
         order: 2; /* 设置在信息栏下方 */
         flex: 1;
-        height: calc(100% - 70px);
+        height: auto;
         width: 100%;
         border: none; /* 移除边框 */
         box-shadow: none; /* 去掉阴影 */
-        padding-bottom: 70px; /* 留出底部空间 */
+        padding-bottom: 130px; /* 留出底部空间 */
         overflow-y: auto; /* 启用滚动 */
+        overflow-x: hidden;
     }
 
     #user-input {
         font-size: 14px;
         padding: 8px;
     }
+    
 
     #send-button {
         font-size: 14px;
@@ -191,12 +192,13 @@ body {
     #chat-container {
         order: 2; /* 设置在信息栏下方 */
         flex: 1;
-        height: calc(100% - 70px);
+        height: auto;
         width: 100%;
         border: none; /* 移除边框 */
         box-shadow: none; /* 去掉阴影 */
-        padding-bottom: 70px; /* 留出底部空间 */
+        padding-bottom: 130px; /* 留出底部空间 */
         overflow-y: auto; /* 启用滚动 */
+        
     }
 
     #user-input {
