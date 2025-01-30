@@ -23,10 +23,12 @@ function sendMessage() {
     // 滚动到最新消息
     chatWindow.scrollTop = chatWindow.scrollHeight;
 
-    fetch("https://chattpy-backend.onrender.com/SihangRobot", {
+    fetch("http://192.168.3.24:5000/SihangRobot", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: userInput }),
+        body: JSON.stringify({ 
+            message: userInput, 
+            sessionID: sessionStorage.getItem('session_id') }),
     })
         .then((response) => {
             if (!response.ok) throw new Error("Network response was not ok");
