@@ -23,7 +23,7 @@ function sendMessage() {
     // 滚动到最新消息
     chatWindow.scrollTop = chatWindow.scrollHeight;
 
-    fetch("https://192.168.3.24:5000/SihangRobot", {
+    fetch("http://192.168.3.24:5000/SihangRobot", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
