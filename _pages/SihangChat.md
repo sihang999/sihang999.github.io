@@ -2,7 +2,7 @@
 layout: chat
 permalink: /SihangChat/
 title: SihangChat
-nav: false
+nav: true
 nav_order: 4
 ---
 
