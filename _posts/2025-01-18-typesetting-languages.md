@@ -10,7 +10,7 @@ categories: code
 featured: true
 ---
 
-The post will introduce hree typesetting languages.
+The post will introduce three typesetting languages.
 
 ## 1. Latex
 

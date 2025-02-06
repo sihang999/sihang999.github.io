@@ -10,7 +10,7 @@ pagination:
   permalink: /page/:num/
 # 表示每页显示五个文章
 #site.display_tags在config文件的315行！！！！
-# site文件夹里面的东西不要弄
+# site文件夹里面的东西不要动
 # sort_field: date 和 sort_reverse: true：按照日期降序排列文章。
   per_page: 5
   sort_field: date
