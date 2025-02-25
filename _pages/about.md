@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle: Communications and Electronics Engineering, Technische Universität München
+subtitle: Master student in Communications and Electronics Engineering at TUM
 
 profile:
   align: right
@@ -24,6 +24,8 @@ social: true # includes social icons at the bottom of the page
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-Hello! I’m Sihang Wu, a master's student at TUM. No matter the past, present, or future, I always stay positive about my life. I am also open to new experiences and challenges because I believe that growth only happens when you step out of your comfort zone.
+Hi, welcome to my personal website. I am an aspiring student with a strong foundation in integrated circuit, spanning both analog and digital domains. 
 
-IF you want to know more about me, there is a [CV website](https://sihang999.github.io/cv/) where you can browse and download my CV. Another option is that you can talk with my Assitant Robot ["Sihang chat"](https://sihang999.github.io/SihangChat/)!
+Currently, I am deepening my understanding of analog IC design, simulation, and verification in the Chair of Circuit Design at TUM, and I am also actively seeking any opportunity to engage in analog IC tasks to further strengthen my expertise.
+
+I am a fast learner, always curious about new technologies, and dedicated to improving my skills through continuous learning and hands-on practice. If you have any exciting projects or opportunities related to analog IC design, simulation and verification, I would love to connect and contribute!
