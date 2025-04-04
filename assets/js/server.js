@@ -23,7 +23,7 @@ function sendMessage() {
     // 滚动到最新消息
     chatWindow.scrollTop = chatWindow.scrollHeight;
 
-    fetch("https://chatty-backend-9t7k.onrender.com/SihangRobot", {
+    fetch("https://chatty-backend-cw1z.onrender.com/SihangRobot", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
