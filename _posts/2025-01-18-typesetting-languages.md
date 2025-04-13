@@ -19,7 +19,7 @@ LaTeX is a mature typesetting language particularly well-suited for processing c
 ### How to use?
 I recommend the online application [Overleaf](https://www.overleaf.com/). It is easy to use without requiring any installations or dependencies. Overleaf also supports collaborative editing, allowing multiple people to work on the same document simultaneously. Additionally, the latest version includes Git functionality!
 
-If you are a student, your university might have a partnership with Overleaf, granting you access to the Pro version for free. For instance, as a TUM student, I can use the [Overleaf LRZ](https://collab.dvb.bayern/display/TUMShareLaTeX) portal and log in with my TUM ID. This provides access to the Overleaf Pro version, along with various TUM-specific templates such as thesis, article, and report formats.
+If you are a student, your university might have a partnership with Overleaf, granting you access to the Pro version for free. For instance, as a TUM student, I can use the [Overleaf LRZ](https://sharelatex.tum.de/ldap/login) portal and log in with my TUM ID. This provides access to the Overleaf Pro version, along with various TUM-specific templates such as thesis, article, and report formats.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
